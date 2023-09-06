@@ -1,0 +1,148 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage{ragged2e}
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+\usepackage[a4paper,bottom=6.4mm,left=14.11mm,right=14.11mm,top=12.74mm]{geometry}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+ 
+% Sections formatting
+\titleformat{\section}{\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\fancy}[2]{
+\vspace{-1pt}\item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\vspace*{36mm}
+
+Pursuing a minor in \textbf{Computer Science \& Engineering}.
+\vspace{-4.5mm}
+
+\section{\textcolor{Violet}{\textbf{\Large{A}\large{CADEMIC} \Large{A}\large{CHIEVEMENTS}}}}
+\vspace{-7.5pt}
+\begin{itemize}[noitemsep]
+% \setlength\itemsep{-2.5pt}
+    % fill DR only if top 20. 
+    \item Achieved All-India Rank \textbf{285} out of 173,000 participants in \textbf{JEE (Advanced) 2019} \hfill \emph{(May 2019)}
+    \item Awarded a \textbf{Gold Medal} in the \textbf{Dr. Homi Bhabha Balvaidnyanik Competition} \hfill \emph{(May 2016)}
+\end{itemize}
+\vspace{-8mm}
+
+\section{\textcolor{Violet}{\textbf{\Large{P}\large{ROFESSIONAL} \Large{E}\large{XPERIENCE}}}}
+\vspace{-7.5pt}
+
+\textbf{Quantitative Research Intern $\mid$ AlphaGrep Securities Pvt. Ltd} \hfill \emph{(May-Jul 2022)}
+\vspace{-7.5pt}
+\begin{itemize}[noitemsep]
+    \item Secured the internship via apping, within \textbf{two weeks} of my Schengen \textbf{VISA rejection} for former internship offer at \textbf{Optiver Services B.V.} acquired through the institute placement cell
+    \item Developed a \textbf{data-analysis tool} in python used by a team of \textbf{10 members} to design strategies on generated alphas by \textbf{plotting backtest results} modifiable by interactive sliders
+    \item Researched and backtested \textbf{50+} designed and \textbf{improved alphas} using the developed tool 
+    \item Explored methods to \textbf{detect} and \textbf{capitalize} on market moves brought by NSE index \textbf{earnings}
+\end{itemize}
+\vspace{-4.5pt}
+
+\textbf{Full-Stack Intern $\mid$ MeTripping Technologies Pvt. Ltd} \hfill \emph{(May-Jul 2021)}
+\vspace{-7.5pt}
+\begin{itemize}[noitemsep]
+    \item Developed a \textbf{web scraping spider} using the \textbf{scrapy python library} to scrape  weather data daily, of over \textbf{20 thousand} travel destinations, \textbf{without expenses} on the websites API calls
+    \item Designed a \textbf{Django Backend application} along with \textbf{Angular Frontend APIs} to communicate and log various user interactions such as clicks, selects, promo code entries amongst others
+    \item Built a \textbf{Backend API} in python, to provide updated weather data for a weather \textbf{landing-page}
+\end{itemize}
+\vspace{-7mm}
+
+\section{\textcolor{Violet}{\bf{\Large{T}\large{ECHNICAL} \Large{P}\large{ROJECTS}}}}
+\vspace{-7.5pt}
+
+\textbf{Parampariyam $\mid$ Course Project} \hfill \emph{(Apr-May 2022)}\\
+\vspace{-2pt}
+\emph{Guide: Professor Gaurav Kasbekar} $\mid$ Electrical Engineering Department, IIT Bombay
+\vspace{-7.5pt}
+\begin{itemize}[noitemsep]
+    \item Probed the \textbf{Bitcoin white paper} to conceptualize and \textbf{design} our own file transaction \textbf{blockchain} 
+    \item Introduced \textbf{node hierarchies} to ensure a private network and \textbf{mathematical analysis} backed \textbf{transaction tax} to manage the circulating supply of the networks parampariyam coins
+    \item Implemented the revamped blockchain in python using django-framework and \textbf{cryptodome libraries} with the \textbf{versatility} to include \textbf{additional features} above the originally devised ones
+\end{itemize}
+\vspace{-5pt}
+
+\textbf{Autonomous Ball Collector} \hfill \emph{(Aug 2020)}\\
+\vspace{-2pt}
+\emph{Guide: Unmesh Mashruwala Innovation Cell, IIT Bombay} 
+\vspace{-7.5pt}
+\begin{itemize}[noitemsep]
+    \item Worked in a \textbf{5 member team} and built a \textbf{fully functional autonomous robot} in Gazebo-ROS simulation software, which was capable of gathering green and simultaneously discarding red balls
+    \item Made use of \textbf{LIDAR, Camera} and \textbf{SONAR sensors} to perceive the simulated environment and performed the appropriate action, on the basis of \textbf{OpenCV} and \textbf{ML techniques}
+\end{itemize}
+\vspace{-7mm}
+
+\section{\textcolor{Violet}{\textbf{\Large{P}\large{OSITIONS} \large{OF} \Large{R}\large{ESPONSIBILITY}}}}
+\vspace{-5pt}
+
+\textbf{Teaching Assistant $\mid$ Department of Mathematics, IIT Bombay} \\
+MA 109 (Calculus I) \emph{(Nov-Dec 2020)} \textbf{\&} MA 205 (Complex Analysis) \emph{(Aug-Sep 2021)}
+\vspace{-7pt} 
+\begin{itemize}[noitemsep]
+    \item Responsible for \textbf{conducting weekly tutorial sessions} for a batch of 40+ juniors, clearing conceptual doubts through personal interaction and helping them cope with their first online semesters 
+    \item Assisted the Professors in \textbf{planning course logistics} and preparing tutorial solutions 
+\end{itemize}
+\vspace{-7mm}
+
+\section{\textcolor{Violet}{\textbf{\Large{E}\large{XTRACURRICULARS} \large{\&} \Large{M}\large{ISCELLANEOUS}}}}
+ \vspace{-5pt}
+\begin{itemize}[noitemsep]
+    \item Emerged victorious in the \textbf{football tournament} held as a part of AlphaGrep Sports Meet \hfill \emph{(2022)}
+	\item Successfully completed \textbf{80 hours} of training in \textbf{swimming} under the \textbf{NSO} programme \hfill \emph{(2020)}
+    \item Developed a \textbf{mobile controlled robotic car} in a team of four and successfully navigated a \\challenging \textbf{obstacle course} as part of the \textbf{XLR8} competition \hfill \emph{(2019)}
+    \item Awarded the \textbf{Gem of the Year} award in school, for proving to be a \textbf{symbol of excellence} \hfill \emph{(2017)}
+    \item Awarded as \textbf{best speaker} in the 1st school simulated Model United Nations Conference \hfill \emph{(2016)}
+    \item \textbf{Speaker} in the Frank Anthony Memorial All India Inter School \textbf{Debate Competition} \hfill \emph{(2015)}
+\end{itemize}
+\vspace{-6mm}
+
+
+\end{document}
